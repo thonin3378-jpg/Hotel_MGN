@@ -1,0 +1,72 @@
+/* ===============================
+   DARK MODE
+   =============================== */
+
+html.dark {
+    --bg-body: #0f172a;
+    --bg-card: #1e293b;
+    --bg-sidebar: #020617;
+
+    --text-main: #e5e7eb;
+    --text-muted: #9ca3af;
+
+    --border-color: #334155;
+}
+
+/* Body */
+html.dark body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+}
+
+/* Cards */
+html.dark .card {
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+}
+
+/* Sidebar */
+html.dark .sidebar-wrapper {
+    background-color: var(--bg-sidebar);
+}
+
+/* Sidebar links */
+html.dark .sidebar-wrapper .menu li a {
+    color: var(--text-main);
+}
+
+html.dark .sidebar-wrapper .menu li a:hover {
+    background-color: #1e293b;
+}
+
+/* Tables */
+html.dark .table {
+    color: var(--text-main);
+}
+
+/* Header / Navbar */
+html.dark header,
+html.dark .navbar {
+    background-color: var(--bg-card);
+}
+
+/* Footer */
+html.dark footer {
+    background-color: var(--bg-card);
+    color: var(--text-muted);
+}
+
+/* Inputs */
+html.dark .form-control,
+html.dark .form-select {
+    background-color: #020617;
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+}
+
+/* Dropdown */
+html.dark .dropdown-menu {
+    background-color: var(--bg-card);
+    color: var(--text-main);
+}
